@@ -8,6 +8,7 @@ class UserTicketApplicationTests {
 
 	@Test
 	void contextLoads() {
+		var v=0;
 	}
 
 }
