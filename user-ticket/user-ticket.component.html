@@ -1,0 +1,57 @@
+<mat-toolbar class="toolbar">Username :somename   Number Of Tickets - {{tickets.length}}</mat-toolbar>
+
+<div class="content">
+   <div fxLayout="row wrap" fxLayoutGap="16px grid">
+       <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="33%" *ngFor="let ticket of tickets">
+        <mat-card class="mat"  (click)="navigate(ticket.ticketid,ticket.title,ticket.desc,ticket.comments,ticket.status,ticket.estimatedtime,ticket.userid)" >
+            <mat-card-header class="head">
+                <mat-card-title>Task or Ticket : {{ticket.title}}</mat-card-title>
+              </mat-card-header>
+
+              <mat-card-content>
+                <p>Ticket Id : {{ticket.ticketid}}</p>
+            </mat-card-content>
+              
+              <mat-card-content>
+                <p>Description : {{ticket.desc}}</p>
+               
+              </mat-card-content>
+              <mat-card-content>
+                  <p>Comments : {{ticket.comments}}</p>
+              </mat-card-content>
+
+              <mat-card-content>
+                <p>Status : {{ticket.status}}</p>
+            </mat-card-content>
+
+            <mat-card-content>
+              <p>Estimated time  : {{ticket.estimatedtime}}</p>
+          </mat-card-content>
+
+           
+
+          <mat-card-actions>
+            
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+</div>
+
+
+
+
+<!--<mat-card class="card" (click)="navigate()">
+  <mat-card-content>
+       <mat-card-title> hi</mat-card-title>
+       <mat-card-subtitle> hii </mat-card-subtitle>
+  </mat-card-content>
+</mat-card>-->
+
+
+<!--<li><a routerLink="/edit" routerLinkActive="active"> Component</a></li>-->
+
+
+
+
+
