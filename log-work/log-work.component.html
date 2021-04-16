@@ -1,0 +1,33 @@
+<p>log-work works!</p>
+
+<form [formGroup]="ticketForm">
+    <div>
+      <label>Log Work </label>
+    </div>
+        <div>
+          <mat-form-field appearance="fill" style="padding: 5px;">
+            <mat-label>Hours Spent</mat-label>
+           <input matInput placeholder="Hours Spent" formControlName="timeSpent">
+          </mat-form-field>
+          <mat-divider></mat-divider>
+          
+            <mat-form-field appearance="fill" style="padding: 5px;">
+              <mat-label>Hours Left</mat-label>
+             <input matInput placeholder="Hours Left" formControlName="timeRemaining">
+            </mat-form-field>
+            <mat-divider></mat-divider>
+          <mat-form-field appearance="fill" style="padding: 5px;">
+            <mat-label>Date</mat-label>
+           <input matInput placeholder="Date" formControlName="date">
+          </mat-form-field>
+          <mat-divider></mat-divider>
+          <mat-form-field appearance="outline"  appearance="outline" style="width:400px;height: 100px;padding: 10px;">
+            <mat-label >description</mat-label>
+            <input matInput placeholder="Desciption" formControlName="description">
+          </mat-form-field>
+        </div>
+        <div>
+        <mat-divider></mat-divider>
+          <button mat-raised-button color="accent" (click)="addToLog()">Save</button>
+        </div>
+      </form>
