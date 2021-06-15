@@ -25,4 +25,50 @@ The prerequisite for creating a new crop is that farmers should get a contract w
 Farmers can view the list of all the suppliers available for a particular product. The application will list the quantities and the price of each product against the seller’s name and details. All the required products can be brought from the supplier and they will make payment through ethers.
 
 
+# Agro-Consultant
+
+## Consultation
+
+Consultation from an agricultural consultant refers to the consultation that farmers book for their crops.
+
+## Rate Crop
+
+At each stage like Pre-Harvest, Harvest and Post-Harvest, the Agro-Consultant can rate the crops. For rating the crop he just need to answer some questions.
+
+## Rate Farmer
+
+After, the consultant completes all the stages of crop ratings. He/she will give a final rating for the farmer for the process followed in the production of quality of the product produced during the crop. This rating process contains 10 questions, each question having multiple choice answers. Each multiple choice has five options ranging from one to five.
+
+
+# Supplier
+
+## Add Commodity
+
+The Supplier will be able to add the new commodities like seeds, pesticides, insecticides, fertilisers, etc.
+For adding commodities the supplier has to provide the below details:
+  1) Commodity name
+  2) price per kg in ETH
+
+## Edit Commodity
+
+After adding the available commodity, he can also edit the commodity list like increasing or decreasing the availability of the commodity by clicking on the + or - button provided, removing the commodity form the list of available commodities by clicking on Remove Commodity button.
+
+
+## Sell Commodity
+
+In order to sell the available commodity he should get the request from the farmer. Farmer orders the materials or commodities to supplier and the order has to be less than the availability of the commodity. 
+
+# Distributor
+
+## Buy Goods
+
+When the Agro Consultant submitting the rating for the post-harvesting stage for a particular crop, that will set the status of that crop to "Ready To Sell". After this the crops will be available to the distributor to buy.Then the distributor order the crops by clicking on the Buy Goods button, and then buy the crops from the farmer followed with payment transfer. 
+
+## Hire Transporter
+
+After buying the crops from the farmer, he has to transport these materials and sell it to the Retailers. So he has to hire some retailer. This can be done by selecting a retailer, that is whoever he is comfortable with the prices from the list of retailers.
+
+
+
+
 
